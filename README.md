@@ -22,4 +22,31 @@ I implemented the concepts learned so far in the course such as visualizations, 
 
 ### Data used for solution
 
-The data used for the analysis is exactly the same as what is provided.
+The data used for the analysis is exactly the same as what is provided. A few changes I made to the data are: 
+I changed the age column to a numeric column using asType. using the below code. 
+
+`condition1 = data['age']=='50plus'
+condition2 = data['age']=='below21'
+data.loc[condition1, 'age'] = 50
+data.loc[condition2, 'age'] = 20
+data['age'] = data['age'].astype(int)`
+
+The coupons in the data set are categorized as shown below: 
+![img.png](img.png)
+
+Some plots of users who accepted the coupons by different categories are as follows
+1. By Marital Status and Age: 
+![img_1.png](img_1.png)
+
+2. By Category and destination
+
+![img_2.png](img_2.png)
+
+3. By Education
+
+![img_3.png](img_3.png)
+
+4. By frequency of how often they go to bar.
+
+![img_4.png](img_4.png)
+Observations:
