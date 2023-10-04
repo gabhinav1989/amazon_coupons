@@ -49,4 +49,23 @@ Some plots of users who accepted the coupons by different categories are as foll
 4. By frequency of how often they go to bar.
 
 ![img_4.png](img_4.png)
-Observations:
+
+### More analysis on Bar coupons itself.
+1. Drivers 25 and above that go more than once
+ ![img_5.png](img_5.png)
+2. Drivers without kid passengers and not in specified occupations.
+![img_6.png](img_6.png)
+3. Drivers without kid passengers and not widowers
+![img_7.png](img_7.png)
+4. Drivers aged less than 30 and who go often
+![img_8.png](img_8.png)
+5. Lastly, Drivers with specific income category and who often go to low income restaurants.
+![img_9.png](img_9.png)
+
+### Observations:
+
+- I observed that the bar coupons are mostly accepted by those who are less frequently visiting the bar compared to those who are visiting the bar more frequently.
+- Also, drivers with lower income and whose chose less expensive restaurants didn't appear to be interested in coupons compared to all others who did.
+
+### Next Steps: 
+This data is sufficient to preform modeling as next steps.
